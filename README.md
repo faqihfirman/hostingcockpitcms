@@ -89,13 +89,13 @@ sudo chown -R www-data:www-data /var/www/cockpit
 sudo chmod -R 755 /var/www/cockpit/storage
 ```
 
-### 4. Arahkan Domain ke Server (DNS Setup)
+#### 4. Arahkan Domain ke Server (DNS Setup)
 <p align="justify">
 Masuk ke panel manajemen domain Anda (misalnya di Rumahweb) dan tambahkan <strong>A Record</strong> baru. Arahkan domain Anda (contoh: cockokin.my.id) 
 ke alamat <strong>IP Publik</strong> VM yang sudah Anda catat sebelumnya.
 </p>
 
-### 5. Konfigurasi Vistual Host Apache
+#### 5. Konfigurasi Vistual Host Apache
 <p align="justify">
 Buat file konfigurasi Virtual Host untuk memberitahu Apache cara menyajikan situs Cockpit Anda. Ganti domain-anda.com dengan nama domain yang sebenarnya.
 </p>
@@ -137,7 +137,7 @@ sudo a2dissite 000-default
 # Reload Apache untuk menerapkan konfigurasi
 sudo systemctl reload apache2
 ```
-### 6. Amankan Situs dengan HTTPS
+#### 6. Amankan Situs dengan HTTPS
 <p align="justify">
 Instal Certbot untuk mendapatkan sertifikat SSL/TLS gratis dari Let's Encrypt dan mengaktifkan HTTPS.
 </p>
@@ -154,7 +154,7 @@ sudo certbot --apache -d domain-anda.com -d [www.domain-anda.com](https://www.do
 Ikuti instruksi interaktif di layar untuk menyelesaikan proses ini.
 </p>
 
-### 7. Selesaikan instalasi cockpit
+#### 7. Selesaikan instalasi cockpit
 <p align="justify">
 Instalasi di sisi server sudah selesai! Sekarang, buka browser Anda dan kunjungi domain Anda (yang sudah HTTPS) diikuti dengan /install.
 </p>
