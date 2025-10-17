@@ -12,6 +12,23 @@
 
 ---
 
+## Anggota Kelompok
+
+<details>
+<summary><strong>Anggota Kelompok</strong> (klik untuk melihat)</summary>
+<br>
+
+| No | Nama | NIM |
+| :---: | :--- | :--- |
+| 1. | Faqih Firman Pratama | G6401231063 |
+| 2. | Anargya Isadhi Maheswara | G6401231118 |
+| 3. | Mohammad Mirza Shahbaz Avianto | G6401231143 |
+| 4. | Muhammad Allif Qalbiy | G6401231084 |
+| 5. | Daffa Aulia Musyaffa Subyantoro | G6401231028 |
+
+</details>
+
+
 
 # Pendahuluan: Apa itu Cockpit?
 <p align="right"><a href="#readme-top">⬆️ kembali ke atas</a></p>
@@ -251,6 +268,25 @@ Selamat! Anda telah berhasil membuat item konten pertama Anda. Item ini sekarang
 </p>
 
 ![Daftar Item di dalam Collection](https://github.com/faqihfirman/hostingcockpitcms/blob/main/images/asset-uploaded.png)
+
+#### 8. Mengakses dan Menguji Konten Melalui API
+<p align="justify">
+Inilah inti dari <em>headless CMS</em>. Konten yang sudah Anda buat tidak akan langsung muncul di mana pun sampai Anda "memanggil"-nya menggunakan API. Cockpit menyediakan alat canggih bernama <strong>REST-API Viewer</strong> untuk menguji panggilan ini tanpa perlu menulis kode.
+</p>
+
+![Tampilan REST-API Viewer Cockpit](https://github.com/faqihfirman/hostingcockpitcms/blob/main/images/api-viewer.png)
+
+<p align="justify">
+<strong>REST-API Viewer</strong> berfungsi sebagai "remote control" untuk data Anda. Di sini Anda bisa melihat semua perintah (<em>Operations</em>) yang tersedia dan langsung mencobanya.
+</p>
+
+**Langkah-langkah Menguji API:**
+1.  **Autentikasi**: Di bagian **AUTHENTICATION**, masukkan **Main API Key** yang sudah Anda buat untuk mendapatkan akses.
+2.  **Pilih Perintah**: Di menu sebelah kiri, cari dan klik perintah untuk mengambil semua item dari sebuah collection, yaitu **`GET /content/items/{model}`**.
+3.  **Masukkan Parameter**: Di form yang muncul, ketik nama *collection* Anda di dalam kotak **`{model}`** (contoh: `postinganBlog`).
+4.  **Eksekusi**: Klik tombol **`SEARCH`**.
+5.  **Lihat Hasil**: Respon data dalam format JSON akan langsung ditampilkan di bagian bawah. Ini adalah data mentah yang siap digunakan oleh aplikasi *frontend* Anda.
+
 
 # Perbandingan Headless CMS: Cockpit vs Payload vs Strapi
 <p align="right"><a href="#readme-top">⬆️ kembali ke atas</a></p>
