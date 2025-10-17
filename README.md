@@ -2,7 +2,7 @@
 
 
 
-| [Pendahuluan](#pendahuluan) | [Instalasi](#instalasi) | [Cara Penggunaan](#cara-penggunaan) |  [Perbandingan](#perbandingan) |
+| [Pendahuluan](#pendahuluan) | [Instalasi](#instalasi) | [Cara Penggunaan](#cara-penggunaan) |  [Perbandingan](#perbandingan-headless-cms-cockpit-vs-payload-vs-strapi) |
 |---|---|---|---|
 
 # Pendahuluan: Apa itu Cockpit?
