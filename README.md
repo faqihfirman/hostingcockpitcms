@@ -6,12 +6,13 @@
 |---|---|---|---|
 
 # Pendahuluan: Apa itu Cockpit?
-
+[`^ kembali ke atas ^`](#)
 
 Cockpit adalah sebuah **headless CMS** yang dirancang untuk memberikan fleksibilitas penuh dalam membangun aplikasi berbasis konten sesuai dengan cara kerja Anda. Disebut "headless" karena Cockpit fokus pada penyediaan infrastruktur konten di *backend* dan menyerahkan tampilan atau *frontend* kepada Anda untuk dikembangkan secara bebas.
 Baik Anda sedang membuat situs web, aplikasi seluler, ataupun aplikasi untuk IoT (*Internet of Things*), Cockpit menyediakan fondasi konten yang solid dan mudah dikelola melalui API.
 
 # Instalasi
+[`^ kembali ke atas ^`](#)
 
 ### 📋 Prasyarat Sistem (System Requirements)
 
@@ -172,6 +173,7 @@ Anda akan melihat halaman installer Cockpit. Ikuti petunjuk untuk membuat akun a
 </p>
 
 # Cara Penggunaan
+[`^ kembali ke atas ^`](#)
 
 #### 1. Login ke Dashboard
 <p align="justify">
@@ -243,6 +245,7 @@ Selamat! Anda telah berhasil membuat item konten pertama Anda. Item ini sekarang
 ![Daftar Item di dalam Collection](https://github.com/faqihfirman/hostingcockpitcms/blob/main/images/asset-uploaded.png)
 
 # Perbandingan Headless CMS: Cockpit vs Payload vs Strapi
+[`^ kembali ke atas ^`](#)
 
 <p align="justify">
 Pemilihan <em>headless Content Management System (CMS)</em> yang tepat sangat bergantung pada kebutuhan proyek, keahlian tim, dan filosofi pengembangan yang dianut. Berikut adalah perbandingan mendalam antara tiga headless CMS populer: Cockpit, Payload, dan Strapi, berdasarkan beberapa kriteria teknis dan fungsional.
