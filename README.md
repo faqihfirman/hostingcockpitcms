@@ -236,6 +236,28 @@ Selamat! Anda telah berhasil membuat item konten pertama Anda. Item ini sekarang
 
 ![Daftar Item di dalam Collection](https://github.com/faqihfirman/hostingcockpitcms/blob/main/images/asset-uploaded.png)
 
+# Perbandingan Headless CMS: Cockpit vs Payload vs Strapi
+
+<p align="justify">
+Pemilihan <em>headless Content Management System (CMS)</em> yang tepat sangat bergantung pada kebutuhan proyek, keahlian tim, dan filosofi pengembangan yang dianut. Berikut adalah perbandingan mendalam antara tiga headless CMS populer: Cockpit, Payload, dan Strapi, berdasarkan beberapa kriteria teknis dan fungsional.
+</p>
+
+| Pembeda | Cockpit | Payload | Strapi |
+| :---: | :---: | :---: | :---: |
+| **Teknologi Dasar** | PHP | NodeJS & TypeScript | NodeJS & JavaScript/TypeScript |
+| **Filosofi Inti** | Minimalis, ringan, fleksibel, dan agnostik terhadap backend PHP/SQLite/MongoDB. | Code-First (Berbasis Kode) & Next.js-Native. Bertindak sebagai Full-stack Framework yang menyatu dengan React/Next.js. | GUI-First (Berbasis GUI) & Plugin-Oriented. Menawarkan pengalaman yang ramah pengguna dan ekosistem plugin yang luas. |
+| **UI Admin Panel** | Fungsional, cukup sederhana. | Dibangun dengan React, sangat dapat disesuaikan (customizable) dengan komponen React Anda sendiri. | Dibangun dengan React, sangat intuitif untuk pengguna non-teknis dengan Content-Type Builder visual. |
+| **Content Modelling** | Menggunakan antarmuka Admin untuk membuat Collections, Singletons, Trees. | Didefinisikan dalam kode TypeScript (Code-First), memastikan keamanan tipe data (type safety). | Dibuat melalui GUI (Content-Type Builder) di admin panel, namun dapat juga dimodifikasi via kode. |
+| **Database Support** | SQLite (default) atau MongoDB. | MongoDB (default), tetapi juga mendukung PostgreSQL, MySQL, SQLite. | PostgreSQL, MySQL, SQLite, MongoDB. |
+| **Akses API** | REST dan GraphQL | REST dan GraphQL (Sangat Dioptimalkan) | REST dan GraphQL (Diaktifkan melalui plugin) |
+<br>
+
+#### Kesimpulan Singkat
+
+- **Gunakan Cockpit jika:** Anda membutuhkan solusi yang sangat ringan, cepat, dan sederhana dengan backend PHP, serta tidak memerlukan kustomisasi admin panel yang mendalam.
+- **Gunakan Payload jika:** Anda adalah developer React/Next.js yang menyukai pendekatan *code-first* dan ingin kontrol penuh atas semua aspek CMS langsung dari kode TypeScript.
+- **Gunakan Strapi jika:** Anda bekerja dengan tim yang memiliki anggota non-teknis, membutuhkan antarmuka admin yang sangat intuitif, dan menyukai ekosistem berbasis plugin.
+
 
 
 
