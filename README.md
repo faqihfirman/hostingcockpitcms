@@ -1,10 +1,17 @@
 ![cockpit-banner](https://github.com/user-attachments/assets/c8d4daf1-86cc-45c9-be24-5c6a6a2ca8ca)
 <a name="readme-top"></a>
 
+
+
 <div align="center">
-| [Pendahuluan](#pendahuluan-apa-itu-cockpit) | [Instalasi](#instalasi) | [Cara Penggunaan](#cara-penggunaan) |  [Perbandingan](#perbandingan-headless-cms-cockpit-vs-payload-vs-strapi) | [Referensi](#referensi) |
+    
+| [Pendahuluan](#pendahuluan-apa-itu-cockpit) | [Instalasi](#instalasi) | [Cara Penggunaan](#cara-penggunaan) | [Perbandingan](#perbandingan-headless-cms-cockpit-vs-payload-vs-strapi) | [Referensi](#referensi) |
 |---|---|---|---|---|
+
 </div>
+
+---
+
 
 # Pendahuluan: Apa itu Cockpit?
 <p align="right"><a href="#readme-top">⬆️ kembali ke atas</a></p>
