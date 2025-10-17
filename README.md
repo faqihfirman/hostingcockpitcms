@@ -1,6 +1,12 @@
 ![cockpit-banner](https://github.com/user-attachments/assets/c8d4daf1-86cc-45c9-be24-5c6a6a2ca8ca)
 
+
+
+| [Pendahuluan](#pendahuluan) | [Instalasi](#instalasi) | [Cara Penggunaan](#cara-penggunaan) | [Pengujian API](#pengujian-api) | [Perbandingan](#perbandingan) |
+|---|---|---|---|---|
+
 # Pendahuluan: Apa itu Cockpit?
+
 
 Cockpit adalah sebuah **headless CMS** yang dirancang untuk memberikan fleksibilitas penuh dalam membangun aplikasi berbasis konten sesuai dengan cara kerja Anda. Disebut "headless" karena Cockpit fokus pada penyediaan infrastruktur konten di *backend* dan menyerahkan tampilan atau *frontend* kepada Anda untuk dikembangkan secara bebas.
 Baik Anda sedang membuat situs web, aplikasi seluler, ataupun aplikasi untuk IoT (*Internet of Things*), Cockpit menyediakan fondasi konten yang solid dan mudah dikelola melalui API.
