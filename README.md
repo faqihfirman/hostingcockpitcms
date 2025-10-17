@@ -172,7 +172,7 @@ Anda akan melihat halaman installer Cockpit. Ikuti petunjuk untuk membuat akun a
 Langkah pertama adalah masuk ke dasbor admin Cockpit menggunakan username dan password yang telah Anda buat saat proses instalasi.
 </p>
 
-![Login ke Dasbor Cockpit]([https://github.com/user-attachments/assets/58a699c2-5573-455b-b9f1-a1d2f7e77b47](https://github.com/faqihfirman/hostingcockpitcms/blob/main/images/login-cockpit.png))
+![Login ke Dasbor Cockpit](https://github.com/faqihfirman/hostingcockpitcms/blob/main/images/login-cockpit.png)
 
 
 #### 2. Membuat Model Konten (Collection)
@@ -184,7 +184,7 @@ Setelah login, hal pertama yang harus dilakukan adalah mendefinisikan "wadah" at
 - **Name**: Beri nama internal untuk API (contoh: `postinganBlog`).
 - **Display name**: Beri nama yang akan tampil di menu (contoh: `Postingan Blog`).
 
-![Membuat Model Collection](https://github.com/user-attachments/assets/b8392120-e22e-4b71-a89c-a1114b0b8c4d)
+![Membuat Model Collection](https://github.com/faqihfirman/hostingcockpitcms/blob/main/images/create-model.png)
 
 
 #### 3. Mendefinisikan Fields (Struktur Data)
@@ -196,7 +196,7 @@ Setelah model dibuat, kita perlu menentukan "laci" atau kolom data apa saja yang
 - **Name**: Beri nama internal (contoh: `foto-blog`).
 - **Display name**: Beri label yang akan tampil di form (contoh: `Foto Blog`).
 
-![Membuat Fields untuk Model](https://github.com/user-attachments/assets/1806305a-8d76-4d0f-90e8-07753e85e429)
+![Membuat Fields untuk Model](https://github.com/faqihfirman/hostingcockpitcms/blob/main/images/create-fields.png)
 
 
 #### 4. Mengunggah Aset (Gambar/Media)
@@ -204,7 +204,7 @@ Setelah model dibuat, kita perlu menentukan "laci" atau kolom data apa saja yang
 Sebelum mengisi konten, ada baiknya kita mengunggah semua file media yang dibutuhkan ke dalam perpustakaan media Cockpit yang disebut <strong>Assets</strong>.
 </p>
 
-![Proses Unggah Aset Selesai](https://github.com/user-attachments/assets/f45a8050-dfad-42d4-a740-1ec6fa77f98e)
+![Proses Unggah Aset Selesai](https://github.com/faqihfirman/hostingcockpitcms/blob/main/images/upload-item.png)
 
 
 #### 5. Membuat Item Konten Baru
@@ -212,7 +212,7 @@ Sebelum mengisi konten, ada baiknya kita mengunggah semua file media yang dibutu
 Sekarang saatnya mengisi konten. Masuk ke Collection yang sudah Anda buat (contoh: `Postingan Blog`), lalu buat item baru. Anda akan melihat form kosong dengan field yang sudah Anda definisikan sebelumnya.
 </p>
 
-![Membuat Item Baru di dalam Collection](https://github.com/user-attachments/assets/5d713c2f-e1eb-47eb-941f-80126a117769)
+![Membuat Item Baru di dalam Collection](https://github.com/faqihfirman/hostingcockpitcms/blob/main/images/select-asset.png)
 
 
 #### 6. Menautkan Aset ke Item
@@ -220,13 +220,13 @@ Sekarang saatnya mengisi konten. Masuk ke Collection yang sudah Anda buat (conto
 Pada field gambar, klik `Link Asset`. Akan muncul jendela pop-up yang menampilkan semua media yang ada di perpustakaan Assets Anda. Pilih gambar yang Anda inginkan.
 </p>
 
-![Memilih Aset dari Perpustakaan Media](https://github.com/user-attachments/assets/05934657-37fc-4e1b-bb3b-f458c54ed378)
+![Memilih Aset dari Perpustakaan Media](https://github.com/faqihfirman/hostingcockpitcms/blob/main/images/create-item-in-model.png)
 
 <p align="justify">
 Setelah dipilih, gambar akan tertaut ke item Anda. Jangan lupa untuk mengubah statusnya dari `UNPUBLISHED` menjadi `PUBLISHED` jika ingin data ini bisa diakses melalui API. Terakhir, klik `UPDATE ITEM`.
 </p>
 
-![Aset Berhasil Ditautkan ke Item](https://github.com/user-attachments/assets/263595eb-c663-42e3-9993-9c8e9f5480ba)
+![Aset Berhasil Ditautkan ke Item](https://github.com/faqihfirman/hostingcockpitcms/blob/main/images/upload-asset.png)
 
 
 #### 7. Melihat Item yang Telah Dibuat
@@ -234,7 +234,7 @@ Setelah dipilih, gambar akan tertaut ke item Anda. Jangan lupa untuk mengubah st
 Selamat! Anda telah berhasil membuat item konten pertama Anda. Item ini sekarang akan muncul dalam daftar di dalam Collection Anda.
 </p>
 
-![Daftar Item di dalam Collection](https://github.com/user-attachments/assets/c6609fcd-078a-4932-bdf9-2a9f77f9825b)
+![Daftar Item di dalam Collection](https://github.com/faqihfirman/hostingcockpitcms/blob/main/images/asset-uploaded.png)
 
 
 
