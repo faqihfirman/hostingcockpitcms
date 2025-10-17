@@ -2,8 +2,8 @@
 
 
 
-| [Pendahuluan](#pendahuluan) | [Instalasi](#instalasi) | [Cara Penggunaan](#cara-penggunaan) | [Pengujian API](#pengujian-api) | [Perbandingan](#perbandingan) |
-|---|---|---|---|---|
+| [Pendahuluan](#pendahuluan) | [Instalasi](#instalasi) | [Cara Penggunaan](#cara-penggunaan) |  [Perbandingan](#perbandingan-headless) |
+|---|---|---|---|
 
 # Pendahuluan: Apa itu Cockpit?
 
