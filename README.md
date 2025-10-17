@@ -2,7 +2,7 @@
 
 
 
-| [Pendahuluan](#pendahuluan) | [Instalasi](#instalasi) | [Cara Penggunaan](#cara-penggunaan) |  [Perbandingan](#perbandingan-headless) |
+| [Pendahuluan](#pendahuluan) | [Instalasi](#instalasi) | [Cara Penggunaan](#cara-penggunaan) |  [Perbandingan](#perbandingan) |
 |---|---|---|---|
 
 # Pendahuluan: Apa itu Cockpit?
